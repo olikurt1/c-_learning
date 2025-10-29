@@ -29,6 +29,8 @@ int main(){
     int z = 20, a = 15;
     cout << z + a << endl;
 
-    
+    //variables can be constants when assigned const at the start which means their value cannot be changed also const 
+    //has to be assigned value instantly at declaration
 
+    const int timeVar = 60;
 }
