@@ -9,6 +9,13 @@ int main(){
 
     //doing the same as above but showing that the variable can be declared without assignment first
     int myNum2;
-    myNum = 15; //assigning a value to the declared variable
-    cout << myNum << endl;
+    //assigning a value to the declared variable
+    myNum = 15; 
+    //changes the variable value since compiler reads top to bottom
+    myNum = 18; 
+    //will output 10
+    cout << myNum << endl; 
+
+    //insertion operator can be used to implement a variable into output  similar to python concatenation
+    cout << "I am" << myNum << "years old.";
 }
