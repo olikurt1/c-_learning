@@ -17,5 +17,18 @@ int main(){
     cout << myNum << endl; 
 
     //insertion operator can be used to implement a variable into output  similar to python concatenation
-    cout << "I am" << myNum << "years old.";
+    cout << "I am " << myNum << "years old."<<endl;
+
+    //doing arithmetic with variables rather than straight from the prompt
+    int firstNum = 20;
+    int secondNum = 15;
+    int sum = firstNum + secondNum;
+    cout << sum <<endl;
+
+    //multiple variables of the same data type can be declared and assigned at once. 
+    int z = 20, a = 15;
+    cout << z + a << endl;
+
+    
+
 }
