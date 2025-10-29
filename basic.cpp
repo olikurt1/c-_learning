@@ -1,4 +1,8 @@
+#include <iostream>
+using namespace std;
+
+
 int main(){
-    double num;
-    num = 5.0;
+    cout << "Hello World";
+    return 0;
 }
